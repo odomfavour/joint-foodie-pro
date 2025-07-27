@@ -61,6 +61,10 @@ const branchSchema = new mongoose.Schema(
       type: coordinatesSchema,
       required: true,
     },
+    isActive: {
+      type: Boolean,
+      default: true,
+    },
     admins: [
       {
         type: mongoose.Schema.Types.ObjectId,

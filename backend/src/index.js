@@ -12,7 +12,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'http://localhost:3001', // frontend origin
+    origin: 'http://localhost:3000', // frontend origin
     credentials: true, // if you're using cookies or sessions
   })
 );
